@@ -1,0 +1,39 @@
+package awtSwing;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.LayoutManager;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class FlowLayout extends JFrame{
+
+	JButton bt1;
+	private Button bt2,bt3;
+	
+	public FlowLayout() {
+		//el constructor recibe el titulo de la ventana.
+		//super sirve para invocar al constructor de la superclase desde el constructor de la superclase.
+		
+		super("esta es la ventana");
+		
+		//defino el layout que va a tener la ventana: FlowLayout
+		setLayout( (LayoutManager) new FlowLayout());
+		setSize(300,300);
+		}
+	
+	
+		public static void main(String[]args) {
+			
+			FlowLayout v1=new FlowLayout();
+			
+			v1.setTitle("ventana 1");
+			v1.setVisible(true);
+			
+			
+			v1.bt1=new JButton("boton 1");
+			
+			v1.add(v1.bt1);
+	}
+}

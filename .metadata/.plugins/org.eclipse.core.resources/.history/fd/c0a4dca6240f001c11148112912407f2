@@ -1,0 +1,36 @@
+package awtSwing;
+
+import java.awt.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Ventana extends JFrame{
+
+	  private JButton boton1, boton2, boton3;
+
+	    public Ventana() {
+	        super();//el constructor del padre PUEDE recibe el titulo de la ventana
+	        setLayout((LayoutManager) new FlowLayout());//definir el tipo de layout
+	        setResizable(true);//redimensionar ventana(true or false)
+	        setSize(600,400);
+	        setDefaultCloseOperation(EXIT_ON_CLOSE);//definir que la ventana se cierre al darle a x
+	        setLocationRelativeTo(null);//centrar la ventana en la pantalla
+	    }
+
+	    public static void main (String[] args) throws Exception {
+
+	    	Ventana1FlowLayout v1 = new Ventana1FlowLayout();    //ventana1 extiende a JFrame, por tanto ventana1 es un JFrame
+	        v1.setTitle("ventana 1");
+	        v1.boton1 = new JButton("Login");//instanciar componente boton
+	        v1.add(v1.boton1);//añadir componente boton a la ventana
+	        
+
+	        
+	        v1.boton2=new JButton("registrarse");
+	        v1.add(v1.boton2);
+	        
+	        v1.boton3=new JButton("salir");
+	        v1.add(v1.boton3);
+	        v1.setVisible(true);//hacer visible la ventana al final para prevenir que no aparezca algún componente
+	    }
+}

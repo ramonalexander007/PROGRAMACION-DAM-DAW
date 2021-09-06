@@ -1,0 +1,10 @@
+package ejercicios;
+
+public class piramide_al_reves {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

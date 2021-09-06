@@ -1,0 +1,51 @@
+package ejercicios;
+
+public class ej_D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//Imprimir los números del 1 al 50, si el número de la interación
+		//actual no es divisible por 2 y el número anterior al de la iteración 
+		//actual es divisible por 10, escribe "¡Ramón!".
+	
+	
+		
+		/**
+		 * for(int i=0;i<=50;i++){
+		 * 		if(i%2!=0 && i%10==0){
+		 * 			syso("ramon");
+		 * 		}else{
+		 * 		syso(i);
+		 * }
+		 * }
+		 * 
+		 * 
+		 */
+		/*for(int i=0;i<=50;i++) {
+			if(i%2!=0 ) {
+				if(i%10==0) {
+					System.out.print("¡RAMÓN!");
+				
+			}else {
+				System.out.print(i);
+			}
+		}
+	}*/
+		
+		for(int i=1;i<=50;i++) {
+			
+			do {
+				System.out.print("¡ramon!");
+				
+				}while(i%2!=0 && i%10==0);
+			System.out.print(i);
+			}
+	
+	
+	
+	
+	}
+
+}

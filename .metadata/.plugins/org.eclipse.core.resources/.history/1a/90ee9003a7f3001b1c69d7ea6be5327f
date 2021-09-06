@@ -1,0 +1,75 @@
+package clase;
+
+public class Clases {
+
+	
+	//propiedades y atributos de la clase
+		public String nombre="ramon";
+		public int edad=21;
+		
+		
+		//constructores
+		
+		public Clases() {
+			
+		}
+		
+		public Clases(String nombre, int edad) {
+			
+		}
+		
+		
+		//metodos get y set
+		
+		public String getNombre() {
+			return nombre;
+		}
+
+		public void setNombre(String nombre) {
+			this.nombre = nombre;
+		}
+
+		public int getEdad() {
+			return edad;
+		}
+
+		public void setEdad(int edad) {
+			this.edad = edad;
+		}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//declaramos un objeto de la clase llamada "Clases"
+		
+		Clases miObjeto=new Clases();
+		
+		
+		//acceder a las propiedades desde la misma clase directamente llamando al nombre de la propiedad
+		
+		System.out.println("acceder a las propiedades directamente");
+		System.out.println(miObjeto.nombre);
+		System.out.println(miObjeto.edad);
+		
+		//modificar las propiedades directamente
+			
+		miObjeto.nombre="jose";
+		miObjeto.edad=30;
+		
+		
+		
+		System.out.println("modificar las propiedades directamente");
+		System.out.println(miObjeto.nombre);
+		System.out.println(miObjeto.edad);
+		
+		
+		//acceder a las propiedades a traves de los metodos get y set(con get)
+		
+		System.out.println("acceder a las propiedades a traves de los metodos get y set");
+		System.out.println(miObjeto.getNombre());
+		System.out.println(miObjeto.getEdad());
+		
+		//modificar las propiedades a través de los métodos get y set(con set)
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Consola.java&apos; to &apos;PIRAMIDES/src/piramides&apos;&#x0D;&#x0A;- Original project: &apos;loops&apos;&#x0D;&#x0A;- Destination element: &apos;PIRAMIDES/src/piramides&apos;&#x0D;&#x0A;- Original element: &apos;LOPPS.Consola.java&apos;" description="Copy compilation unit" destination="=PIRAMIDES/src&lt;piramides" element1="/src&lt;LOPPS{Consola.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1623393931825" units="1" version="1.0"/>
+</session>

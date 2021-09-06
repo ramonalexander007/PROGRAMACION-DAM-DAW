@@ -1,0 +1,31 @@
+package paquete1;
+
+public class clase6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String[] cars= {"camaro","corvette", "tesla","bmw"};
+		
+		cars[0]="mustang";
+		
+		System.out.println(cars[0]);
+		
+		System.out.println("--------------------------------------------------------------------------");
+		
+		String[] car=new String[3];
+		
+		car[0]="camaro";
+		car[1]="corvette";
+		car[2]="tesla";
+		
+		
+		System.out.println(car[0]);
+		System.out.println(car[1]);
+		System.out.println(car[2]);
+		
+		
+	}
+
+}

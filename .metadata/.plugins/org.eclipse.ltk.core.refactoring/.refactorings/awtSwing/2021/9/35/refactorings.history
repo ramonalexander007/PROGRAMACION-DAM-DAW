@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;awtSwing.flowLayout.java&apos; to &apos;FlowLayout.java&apos;&#x0D;&#x0A;- Original project: &apos;awtSwing&apos;&#x0D;&#x0A;- Original element: &apos;awtSwing.flowLayout.java&apos;&#x0D;&#x0A;- Renamed element: &apos;awtSwing.FlowLayout.java&apos;" description="Rename compilation unit &apos;flowLayout.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;awtSwing{flowLayout.java" name="FlowLayout.java" references="false" stamp="1630846883711" version="1.0"/>
+</session>

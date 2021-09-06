@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;examen_practica&apos; to &apos;interfaz-grafica/src&apos;&#x0D;&#x0A;- Original project: &apos;examen 1-6-2021&apos;&#x0D;&#x0A;- Destination element: &apos;interfaz-grafica/src&apos;&#x0D;&#x0A;- Original element: &apos;examen 1-6-2021/src/examen_practica&apos;" description="Copy package" destination="=interfaz-grafica/src" element1="/src&lt;examen_practica" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1630842324987" version="1.0"/>
+</session>

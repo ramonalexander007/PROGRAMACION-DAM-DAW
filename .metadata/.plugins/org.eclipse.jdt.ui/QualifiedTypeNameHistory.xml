@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="clases.Persona"/>
+    <fullyQualifiedTypeName name="dominio.Persona"/>
+    <fullyQualifiedTypeName name="domain.Empleado"/>
+    <fullyQualifiedTypeName name="domain.Cliente"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="operaciones.Operaciones"/>
+    <fullyQualifiedTypeName name="mx.com.globalmentoring.Utileria"/>
+    <fullyQualifiedTypeName name="domain.Persona"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.scripts.JO"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="ejercicios.Consola"/>
+    <fullyQualifiedTypeName name="piramides.Consola"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="clase.claseEmpleado"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="pruebas.Vehiculo"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="pruebas.profesores_fp"/>
+    <fullyQualifiedTypeName name="Biblioteca.libro"/>
+</qualifiedTypeNameHistroy>

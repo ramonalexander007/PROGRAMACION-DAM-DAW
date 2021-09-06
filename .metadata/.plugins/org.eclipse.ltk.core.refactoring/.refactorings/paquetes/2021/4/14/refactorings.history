@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;globalmentoring.com.mx&apos; to &apos;mx.com.globalmentoring&apos;&#x0D;&#x0A;- Original project: &apos;paquetes&apos;&#x0D;&#x0A;- Original element: &apos;paquetes/src/globalmentoring.com.mx&apos;&#x0D;&#x0A;- Renamed element: &apos;paquetes/src/mx.com.globalmentoring&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;globalmentoring.com.mx&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;globalmentoring.com.mx" name="mx.com.globalmentoring" qualified="false" references="true" stamp="1617790343981" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,42 @@
+package ejercicios;
+
+public class piramide_al_reves {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*int  x=8;
+		
+		for (int i = 1; i <= x; i++){
+
+			for (int j = 1; j <= x - i; j++) { System.out.print(" "); }
+
+			for (int k = i; k >= 1; k--) { System.out.print( k);} 
+
+			for (int k = 2; k <=i; k++){ System.out.print(k); }
+
+			System.out.println(); 
+			}
+		*/
+		
+		
+         
+        //Asteriscos
+		System.out.println("introduce hasta que numero quieres que recorra la piramide:");
+		int numero=Consola.leeInt(); 
+		boolean salir=false;
+		
+        for(int j=1; j <= numero; j--){
+            System.out.print(j);
+            for(int i=1;i<=numero-1;i--) {
+           System.out.println(i);
+            }
+        }
+        System.out.println();
+        salir=true;
+    }
+
+		}
+	
+
+
